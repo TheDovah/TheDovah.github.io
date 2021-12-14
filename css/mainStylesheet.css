@@ -16,6 +16,7 @@ html * {
 
   /* Style the header */
 .header {
+  grid-area: menuBar;
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
