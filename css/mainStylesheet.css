@@ -18,8 +18,8 @@ html * {
 .header {
   grid-area: menuBar;
   padding: 10px 16px;
-  background: #555;
-  color: #0000;
+  background: #000000;
+  color: #f1f1f1;
   width: 100%;
 }
 
