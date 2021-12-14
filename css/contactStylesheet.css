@@ -1,0 +1,98 @@
+html * {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    margin-top: 49px;
+    grid-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+               "menuBar menuBar"
+                "form piece"
+                "ref ref"
+                "foot foot"
+}
+
+.heading {
+    grid-area: header;
+}
+
+.piece {
+    grid-area: piece;
+    //background-color: #FFF400;
+}
+
+.form {
+    grid-area: form;
+    display: block;
+    text-align: center;
+
+    position: relative;
+
+}
+
+.references {
+    grid-area: ref;
+    //background-color: #FFF400;
+}
+
+.footer {
+    grid-area: foot;
+    /*background-color: #FFF400;*/
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    width: 300px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+textarea {
+    width: 300px;
+    resize: none;
+    height: 300px;
+}
+
+button {
+    margin: 0px 0px 4px 0px;
+    display: block;
+}
+
+input, textarea {
+    outline: none;
+    border: 3px solid #ff4e33;
+}
+
+.information {
+    word-wrap: break-word;
+    margin: 2.5em;
+    font-size: 20px;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+/*------------------ Laptop --------------------*/
+
+
+@media (min-width: 1024px) {
+    .wrapper {
+        display: grid;
+        margin-top: 49px;
+        grid-gap: 1px;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-areas:
+               "menuBar menuBar"
+                "form piece"
+                "ref ref"
+                "foot foot"
+    }
+}

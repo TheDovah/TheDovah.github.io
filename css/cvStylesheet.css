@@ -1,0 +1,80 @@
+body {
+    background-color: #FF7400;
+}
+
+.wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+            "header"
+            "pdf"
+            "ref"
+            "foot"
+}
+
+.heading {
+    grid-area: header;
+}
+
+.navigation {
+    grid-area: nav;
+    top: 10px;
+    left: 10px;
+    position: fixed;
+    background-color: #FF7400;
+    padding: 9px;
+}
+
+.pdf {
+    grid-area: pdf;
+}
+
+.references {
+    grid-area: ref;
+}
+
+.footer {
+    grid-area: foot;
+}
+h1 {
+    font-size: 50px;
+    font-family: Charcoal, Impact, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Alfa Slab One', Impact, cursive;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+input, textarea {
+    outline: none;
+    border: 3px solid #FF000B;
+}
+
+.information {
+    word-wrap: break-word;
+    margin: 2.5em;
+    font-size: 20px;
+}
+
+/*------------------ Laptop --------------------*/
+
+@media (min-width: 1024px) {
+    .wrapper {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-areas:
+                "header header"
+                "pdf pdf"
+                "ref ref"
+                "foot foot"
+    }
+}

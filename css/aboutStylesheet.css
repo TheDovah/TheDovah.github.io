@@ -1,0 +1,76 @@
+html * {
+    margin: 0;
+}
+
+.wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+                "menuBar"
+                "empty"
+                "piece"
+                "ref"
+                "foot"
+}
+
+.piece {
+    grid-area: piece;
+    /*background-color: #FFF400;*/
+}
+
+.references {
+    grid-area: ref;
+    /*background-color: #FFF400;*/
+}
+
+.footer {
+    grid-area: foot;
+    /*background-color: #FFF400;*/
+}
+
+.gameJam {
+    word-wrap: break-word;
+    margin: 2.5em;
+    font-size: 20px;
+}
+
+.gamePro {
+    word-wrap: break-word;
+    margin: 2.5em;
+    font-size: 20px;
+}
+
+.Model {
+    word-wrap: break-word;
+    margin: 2.5em;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.itchWidget {
+    display: inline-block;
+    padding-left: 50%;
+    transform: translate(-25%);
+}
+
+
+/*------------------ Laptop --------------------*/
+
+
+@media (min-width: 1024px) {
+    .wrapper {
+        display: grid;
+        margin-top: 49px;
+        grid-gap: 1px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+                "menuBar menuBar menuBar"
+                "empty empty empty"
+                "piece piece piece"
+                "ref ref ref"
+                "foot foot foot"
+    }
+}

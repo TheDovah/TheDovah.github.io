@@ -1,0 +1,147 @@
+
+
+
+body {
+    background-image: url("https://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=dbdbdb&density=15&opacity=15");
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Charcoal, Impact, sans-serif;
+    text-align: center;
+    color: #ff4e33;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Alfa Slab One', Impact, cursive;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 0px;
+}
+
+.liSocial {
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.ulSocial {
+    padding: 0;
+    width: 20px;
+    margin: 20px auto 0;
+}
+
+.menuTitle {
+    grid-area: menuBar;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    height: 50px;
+    z-index: 5;
+}
+
+a{
+    color: #ff4e33;
+}
+
+.ulMenu a {
+    color: #ccc;
+    text-decoration: none;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to right, #ff4e33, #ff4e33 50%, #ccc 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.ulMenu a:hover{
+    background-position: 0 100%;
+}
+
+.ulMenu {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 0;
+    margin: 0;
+    /*height: 50px;*/
+    padding-top: 10px;
+    padding-bottom: 0;
+    font-family: Charcoal, 'Alfa Slab One', Impact, cursive;
+}
+
+.headerName {
+    font-family: Charcoal, 'Alfa Slab One', Impact, cursive;
+    color: #ccc;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    letter-spacing: .17rem;
+}
+
+.innerMenu {
+    margin: 5px 10px 5px 10px;
+}
+
+.socialBar {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    height: 100px;
+    width: 40px;
+    transform: translate(0, -50%);
+    display: inline-block;
+    background-color: #ff4e33;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.fa-twitter {
+    font-size: 20px;
+    color: white;
+}
+
+.fa-linkedin {
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    word-wrap: break-word;
+    margin: 2.5em;
+    font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+    .menuTitle{
+        visibility: visible;
+    }
+    .Hamburger{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 1023px) {
+    .innerMenu{
+        visibility: hidden;
+    }
+    .Hamburger{
+        visibility: visible;
+    }
+}
