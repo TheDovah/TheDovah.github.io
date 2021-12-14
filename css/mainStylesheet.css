@@ -55,6 +55,10 @@ html * {
     /*background-color: #FFF400;*/
 }
 
+.portfolio {
+    color: #ff4e33;
+}
+
 .picture {
     grid-area: pic;
     /*background-color: red;*/
