@@ -65,7 +65,7 @@ a{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    background-size: 200% 100%;
+    /*background-size: 200% 100%;*/
     background-position: 100%;
     transition: background-position 275ms ease;
 }
