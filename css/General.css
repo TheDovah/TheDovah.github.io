@@ -128,7 +128,7 @@ p {
     font-size: 20px;
 }
 
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
     .menuTitle{
         visibility: visible;
     }
@@ -144,4 +144,4 @@ p {
     .Hamburger{
         visibility: visible;
     }
-}
+}*/
