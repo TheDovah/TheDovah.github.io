@@ -4,6 +4,7 @@ body {
 .wrapper {
     grid-template-columns: 1fr;
     grid-template-areas:
+            "menuBar"
             "header"
             "pdf"
             "foot"
@@ -70,6 +71,7 @@ input, textarea {
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(100px, auto);
         grid-template-areas:
+                "menuBar menuBar"
                 "header header"
                 "pdf pdf"
                 "ref ref"
