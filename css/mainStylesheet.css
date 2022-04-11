@@ -119,7 +119,7 @@ img {
 
 /*------------------ Laptop --------------------*/
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .wrapper {
         margin-top: 49px;
         display: grid;
