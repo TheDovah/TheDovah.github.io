@@ -6,15 +6,13 @@ html * {
     margin-top: 49px;
     display: grid;
     grid-gap: 1px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-                "menuBar"
-                "header"
-                "piece"
-                "pic"
-                "piece1"
-                "ref"
-                "foot"
+            "menuBar menuBar menuBar"
+            "piece pic pic"
+            "pic2 pic2 piece1"
+            "ref empty empty"
+            "foot foot foot"
 }
 
   /* Style the header */
@@ -117,20 +115,23 @@ img {
 }
 
 
-/*------------------ Laptop --------------------*/
+/*------------------ Mobile --------------------*/
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
+    
     .wrapper {
         margin-top: 49px;
         display: grid;
         grid-gap: 1px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-areas:
-            "menuBar menuBar menuBar"
-            "piece pic pic"
-            "pic2 pic2 piece1"
-            "ref empty empty"
-            "foot foot foot"
+                "menuBar"
+                "header"
+                "piece"
+                "pic"
+                "piece1"
+                "ref"
+                "foot"
     }
 
     .itchWidget {
