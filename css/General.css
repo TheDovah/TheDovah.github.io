@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: url("https://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=dbdbdb&density=15&opacity=15");
+    background-image: url("/images/img-noise-361x370.png");
     overflow-x: hidden;
 }
 
