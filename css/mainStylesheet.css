@@ -1,27 +1,38 @@
 html * {
-    margin: 0;
+    /* margin: 0; */
 }
 
 .wrapper {
     margin-top: 49px;
-    display: grid;
-    grid-gap: 1px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-            "menuBar menuBar menuBar"
-            "piece pic pic"
-            "pic2 pic2 piece1"
-            "ref empty empty"
-            "foot foot foot"
+    /* display: grid; */
+    /* grid-gap: 1px; */
+    /* grid-template-columns: 1fr; */
+    /* grid-template-areas: */
+                /* "menuBar" */
+                /* "header" */
+                /* "piece" */
+                /* "pic" */
+                /* "piece1" */
+                /* "ref" */
+                /* "foot" */
 }
 
   /* Style the header */
+
 .header {
-  grid-area: menuBar;
+  /* grid-area: menuBar; */
   padding: 10px 16px;
   background: #000000;
   color: #f1f1f1;
   width: 100%;
+}
+
+.container.first-row{
+    margin-top: 100px;
+}
+
+.container.second-row{
+    margin-top: 50px;
 }
 
 /* Page content */
@@ -41,27 +52,31 @@ html * {
   padding-top: 102px;
 } 
 
+p{
+    margin: 0;
+}
+
 .piece {
-    grid-area: piece;
+    /* grid-area: piece; */
     /*background-color: #FFF400;*/
 }
 
 .piece1 {
-    grid-area: piece1;
+    /* grid-area: piece1; */
     /*background-color: #FFF400;*/
 }
 
 .piece2 {
-    grid-area: piece2;
+    /* grid-area: piece2; */
     /*background-color: #FFF400;*/
 }
 
 .portfolio {
-    color: #ff4e33;
+    color: #ff4e33 !important; 
 }
 
 .picture {
-    grid-area: pic;
+    /* grid-area: pic; */
     /*background-color: red;*/
     width: 100%;
     height: auto;
@@ -70,7 +85,7 @@ html * {
 }
 
 .picture2 {
-    grid-area: pic2;
+    /* grid-area: pic2; */
     /*background-color: #ff0000;*/
     width: 100%;
     height: auto;
@@ -80,13 +95,13 @@ html * {
 }
 
 .references {
-    grid-area: ref;
+    /* grid-area: ref; */
     /*background-color: #FFF400;*/
 
 }
 
 .footer {
-    grid-area: foot;
+    /* grid-area: foot; */
     /*background-color: #FFF400;*/
 }
 
@@ -114,29 +129,69 @@ img {
     transform: translate(-25%);
 }
 
+/* switcharoo trick first row */
 
-/*------------------ Mobile --------------------*/
+@media (max-width: 1199px){
 
-@media (max-width: 1024px) {
-    
+    .itchWidget.first-row-left{
+        visibility: hidden;
+        height: 0;
+    }
+}
+
+.itchWidget.first-row-right{
+    margin-top: 30px;
+    visibility: hidden;
+    height: 0;
+}
+
+@media (max-width: 1199px){
+    .itchWidget.first-row-right{
+        visibility: visible;
+    }
+}
+
+/* switcharoo trick two row */
+
+@media (max-width: 1199px){
+
+    .itchWidget.second-row-right{
+        visibility: hidden;
+        height: 0;
+    }
+}
+
+.itchWidget.second-row-left{
+    margin-top: 30px;
+    visibility: hidden;
+    height: 0;
+}
+
+@media (max-width: 1199px){
+    .itchWidget.second-row-left{
+        visibility: visible;
+    }
+}
+
+
+/*------------------ Laptop --------------------*/
+
+/* @media (min-width: 1024px) {
     .wrapper {
         margin-top: 49px;
         display: grid;
         grid-gap: 1px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-                "menuBar"
-                "header"
-                "piece"
-                "pic"
-                "piece1"
-                "pic2"
-                "ref"
-                "foot"
+            "menuBar menuBar menuBar"
+            "piece pic pic"
+            "pic2 pic2 piece1"
+            "ref empty empty"
+            "foot foot foot"
     }
 
     .itchWidget {
         padding-left: 50%;
     }
-}
+} */
 
