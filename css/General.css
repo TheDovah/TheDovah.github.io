@@ -128,6 +128,10 @@ p {
     font-size: 20px;
 }
 
+.active {
+    border-bottom: 1px solid red;
+    padding: 0 0 4px;
+}
 /*@media (min-width: 1024px) {
     .menuTitle{
         visibility: visible;
