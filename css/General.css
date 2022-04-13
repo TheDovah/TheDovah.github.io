@@ -61,6 +61,9 @@ a{
     text-decoration: none;
     align-items: center;
     overflow: hidden;
+}
+
+.inactive{
     background: linear-gradient(to right, #ff4e33, #ff4e33 50%, #ccc 50%);
     background-clip: text;
     -webkit-background-clip: text;
