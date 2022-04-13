@@ -52,6 +52,10 @@ li {
     z-index: 5;
 }
 
+a{
+    color: #ff4e33;
+}
+
 .ulMenu a {
     color: #ccc;
     text-decoration: none;
@@ -125,14 +129,8 @@ p {
 }
 
 .active {
-    background: #ccc !important;
-    background-clip: text;
     border-bottom: 3px solid #ff4e33;
     padding: 0 0 4px;
-}
-
-a{
-    color: #ccc;
 }
 
 /*@media (min-width: 1024px) {
