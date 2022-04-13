@@ -70,7 +70,7 @@ a{
     transition: background-position 275ms ease;
 }
 
-.inactive:hover{
+.ulMenu a:hover{
     background-position: 0 100%;
 }
 
