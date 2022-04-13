@@ -125,7 +125,7 @@ p {
 }
 
 .active {
-    background: #ccc !important;
+    background-position: 0%;
     border-bottom: 3px solid #ff4e33;
     padding: 0 0 4px;
 }
