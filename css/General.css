@@ -56,7 +56,7 @@ a{
     color: #ff4e33;
 }
 
-.inactive a{
+.ulMenu a{
     color: #ccc;
     text-decoration: none;
     align-items: center;
@@ -70,7 +70,7 @@ a{
     transition: background-position 275ms ease;
 }
 
-.inactive a:hover{
+.ulMenu a:hover{
     background-position: 0 100%;
 }
 
