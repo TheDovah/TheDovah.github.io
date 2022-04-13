@@ -56,7 +56,7 @@ a{
     color: #ff4e33;
 }
 
-.inactive {
+.ulMenu a {
     color: #ccc;
     text-decoration: none;
     align-items: center;
