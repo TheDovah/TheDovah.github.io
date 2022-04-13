@@ -133,6 +133,10 @@ p {
     border-bottom: 3px solid #ff4e33;
     padding: 0 0 4px;
 }
+
+.active :hover {
+    color: #ff4e33;
+}
 /*@media (min-width: 1024px) {
     .menuTitle{
         visibility: visible;
