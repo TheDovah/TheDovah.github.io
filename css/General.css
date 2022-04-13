@@ -52,6 +52,16 @@ li {
     z-index: 5;
 }
 
+.active {
+    background: #ff4e33;
+    border-bottom: 3px solid #ff4e33;
+    padding: 0 0 4px;
+}
+
+.active :hover {
+    background: #ff4e33;
+}
+
 a{
     color: #ff4e33;
 }
@@ -128,15 +138,6 @@ p {
     font-size: 20px;
 }
 
-.active {
-    background: #ff4e33;
-    border-bottom: 3px solid #ff4e33;
-    padding: 0 0 4px;
-}
-
-.active :hover {
-    background: #ff4e33;
-}
 /*@media (min-width: 1024px) {
     .menuTitle{
         visibility: visible;
