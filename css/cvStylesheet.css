@@ -63,7 +63,7 @@ input, textarea {
 }
 
 /*------------------ Laptop --------------------*/
-
+/*
 @media (min-width: 1024px) {
     .wrapper {
         display: grid;
@@ -78,3 +78,4 @@ input, textarea {
                 "foot foot"
     }
 }
+*/
