@@ -2,12 +2,12 @@ body {
 }
 
 .wrapper {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr;
     grid-template-areas:
             "menuBar"
             "header"
             "pdf"
-            "foot"
+            "foot" */
 }
 
 .heading {
