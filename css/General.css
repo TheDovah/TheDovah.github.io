@@ -50,6 +50,7 @@ li {
     position: fixed;
     height: 50px;
     z-index: 5;
+    vertical-align: middle
 }
 
 a{
@@ -92,6 +93,7 @@ a{
     padding: 0;
     margin: 0;
     letter-spacing: .17rem;
+    margin-left: .5em;
 }
 
 .innerMenu {
