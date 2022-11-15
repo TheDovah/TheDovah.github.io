@@ -11,18 +11,18 @@ body {
 }
 
 
-.heading {
+.header {
     grid-area: header;
 }
 
-.navigation {
+/*.navigation {
     grid-area: nav;
     top: 10px;
     left: 10px;
     position: fixed;
     background-color: #FF7400;
     padding: 9px;
-}
+}*/
 
 .pdf {
     grid-area: pdf;

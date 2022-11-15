@@ -13,15 +13,34 @@
     <div class="wrapper">
         
         <div class="menuTitle" id="myHeader">
-            <h2 class="headerName">Emil Sjåfjell</h2>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand"><h2 class="headerName">Emil Sjåfjell</h2></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                        aria-controls="navbarColor01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbarColor01" class="navbar-collapse collapse show">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-none">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cv.html" class="inactive">CV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             
-            <div class="innerMenu">
-                <ul class="ulMenu">
-                    <!--<li><a href="about.html">About</a></li>-->
-                    <li><a href="" id="portfolio" class="active">Portfolio</a></li>
-                    <!--<li><a href="contact.html">Contact</a></li>-->
-                    <li><a href="cv.html" class="inactive">CV</a></li>
-                </ul>
+            <div class="d-none d-lg-block d-print-block">
+                <div class="innerMenu">
+                    <ul class="ulMenu">
+                        <li><a href="" id="portfolio" class="active">Portfolio</a></li>
+                        <li><a href="cv.html" class="inactive">CV</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
