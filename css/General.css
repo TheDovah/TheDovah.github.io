@@ -100,7 +100,6 @@ a{
 }
 
 .socialBar {
-    position: fixed;
     right: 0;
     top: 50%;
     height: 100px;
@@ -133,10 +132,12 @@ p {
     padding: 0 0 4px;
 }
 
+/*
 .container {
     position: relative;
 }
-/*@media (min-width: 1024px) {
+
+@media (min-width: 1024px) {
     .menuTitle{
         visibility: visible;
     }

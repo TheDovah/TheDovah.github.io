@@ -80,11 +80,12 @@ input, textarea {
     background-color: #FF7400;
     
   }
-
   
 a {
     text-decoration-line: none;
+    display: inline-block;
 }
+
 /*------------------ Laptop --------------------*/
 /*
 @media (min-width: 1024px) {
