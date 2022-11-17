@@ -3,14 +3,14 @@ html * {
 }
 
 .wrapper {
-    margin-top: 49px;
-    /* display: grid; */
-    /* grid-gap: 1px; */
-    /* grid-template-columns: 1fr; */
-    /* grid-template-areas: */
-                /* "menuBar" */
-                /* "header" */
-                /* "piece" */
+    /*margin-top: 49px;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+                "menuBar"
+                "header"
+                "piece"
                 /* "pic" */
                 /* "piece1" */
                 /* "ref" */
@@ -20,11 +20,11 @@ html * {
   /* Style the header */
 
 .header {
-  /* grid-area: menuBar; */
+  /* grid-area: menuBar;
   padding: 10px 16px;
   background: #000000;
   color: #f1f1f1;
-  width: 100%;
+  width: 100%; */
 }
 
 .container.first-row{
@@ -42,7 +42,7 @@ html * {
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%
 }
