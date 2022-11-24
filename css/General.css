@@ -4,8 +4,8 @@
 body {
     background-image: url("/images/img-noise-361x370.png");
     overflow-x: hidden;
-    position:absolute;
-    width: 100%;
+    /* position:absolute; */
+    max-width: 100%;
 }
 
 h1 {
